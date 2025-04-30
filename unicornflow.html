@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unicorn Flow</title>
+    <link rel="stylesheet" href="unicornflow.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <script src="unicornflow.js" defer></script>
+  </head>
+  <body>
+    <div id="allContent">
+      <!--Page Logo Header-->
+      <img src="images/Logo.png" class="header" alt="Unicorn Flow Logo" />
+
+      <!--Form-->
+
+      <form id="myForm">
+        <div id="form-content">
+          <div id="task-wrapper" class="inputs">
+            <label for="taskName" class="labels">Task Name:</label>
+            <input type="text" id="taskName" name="taskName" required />
+          </div>
+
+          <div id="priority-wrapper" class="inputs">
+            <label for="priority" class="labels">Priority Level:</label>
+            <select id="priority" name="priority" required>
+              <option value="Low">Low</option>
+              <option value="Medium">Medium</option>
+              <option value="High">High</option>
+            </select>
+          </div>
+
+          <div id="importanceContainer">
+            <label for="importance" id="importance-label">Important?</label>
+            <input type="checkbox" id="importance" name="importance" />
+          </div>
+        </div>
+        <input type="submit" id="newTaskBtn" value="Create Task" />
+      </form>
+
+      <!--Task Manager Table-->
+      <div id="myTable">
+        <table>
+          <thead>
+            <tr>
+              <th>Done</th>
+              <th>Task</th>
+              <th>Priority</th>
+              <th>Date Added</th>
+            </tr>
+          </thead>
+          <div id="taskManager">
+            <tbody></tbody>
+          </div>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
