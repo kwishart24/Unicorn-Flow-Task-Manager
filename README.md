@@ -58,7 +58,7 @@ These are the features that I added to enhance user experience:
 
 I first started developing Unicorn Flow in April 2025 and it took me about 2 weeks to build. After reading the requirements and watching the example video provided as a jumping off point, I started first with the development to make sure I hit all of the functional requirements, then moved onto the design and how I wanted my task management web app to look. Here is the example video we were provided:
 
-[![Watch the video](https://img.youtube.com/vi/qM3pAJmL8Xg/hqdefault.jpg)](https://youtu.be/qM3pAJmL8Xg)
+[![Watch the video](https://img.youtube.com/vi/qM3pAJmL8Xg/hqdefault.jpg)](https://youtu.be/watch?v=qM3pAJmL8Xg)
 
 https://youtu.be/qM3pAJmL8Xg
 
